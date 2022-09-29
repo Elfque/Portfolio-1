@@ -407,10 +407,12 @@ form {
   border: none;
   color: #fff;
   font-size: 1rem;
+  margin-bottom: 2rem;
 }
 .sendBtn {
   margin-top: 1rem;
   text-align: center;
+  position: relative;
   grid-column: span 2;
 }
 .contact_image_div {
@@ -420,6 +422,13 @@ form {
   width: 70%;
   margin: 1rem auto;
   filter: contrast(60%);
+}
+.send_message {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.9rem;
 }
 
 @media (max-width: 500px) {
